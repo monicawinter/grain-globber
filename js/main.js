@@ -7,7 +7,7 @@ grains.forEach(function (grain) {
   var $figure = $('<figure>');
   var $img = $('<img>');
   var $h2 = $('<h2>');
-  var $description = $('<p>')
+  var $description = $('<p>');
 
   $description.html(grain.desc);
   $h2.html(grain.name);
