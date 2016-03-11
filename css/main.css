@@ -33,12 +33,10 @@ figure {
 
 .grains h2 {
   display: block;
-  width: calc(100% - 100px);
   margin: 0;
 }
 
 .grains p {
   display: block;
-  width: calc(100% - 100px);
   margin: 0;
 }
