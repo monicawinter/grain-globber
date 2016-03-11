@@ -34,6 +34,7 @@ figure {
 .grains h2 {
   display: block;
   margin: 0;
+  font-size: 1em;
 }
 
 .grains p {
