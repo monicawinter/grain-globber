@@ -14,20 +14,31 @@ html {
   list-style-type: none;
 }
 
+figure {
+  margin: 0;
+}
+
 .grains li {
   width: 100%;
+  position: relative;
+  margin-bottom: 2em;
 }
 
 .grains img {
   width: 100px;
-  display: inline-block;
+  display: block;
   float: left;
+  margin-right: 1em;
 }
 
 .grains h2 {
-  display: inline-block;
+  display: block;
+  width: calc(100% - 100px);
+  margin: 0;
 }
 
 .grains p {
-  display: inline-block;
+  display: block;
+  width: calc(100% - 100px);
+  margin: 0;
 }
